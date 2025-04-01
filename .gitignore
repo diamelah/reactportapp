@@ -1,0 +1,30 @@
+# 🚫 node_modules (dependencias instaladas)
+node_modules/
+
+# 🚫 directorio de build
+dist/
+
+# ⚙️ archivos de Vite
+.vite/
+
+# 🧪 cobertura de tests
+coverage/
+
+# 🧪 testing local
+*.log
+
+# 🔒 archivos sensibles
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ⚠️ archivos de VSCode o editores
+.vscode/
+.idea/
+*.swp
+
+# 💻 archivos de sistema
+.DS_Store
+Thumbs.db
